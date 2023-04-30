@@ -18,21 +18,21 @@
   <form id="survey-form">
 
     <div class="campText">
-      <label id="name-label"> Name<input id="name" name="fist-name" type="text" required placeholder="Enter your name">
+      <label id="name-label"> Name<input id="name" name="fist-name" type="text" required placeholder="Enter your name" class="input-text">
       </label>
-
+      <br>
       <label id="email-label" for="email">Email
-        <input id="email" type="email" required placeholder="Enter your Email"> </label>
-
-      <label id="number-label" for="number">Age (optional)
+        <input id="email" type="email" required placeholder="Enter your Email" class="input-email"> </label>
+        <br>
+      <label id="number-label" for="number" class="input-age">Age (optional)
         <input type="number" id="number" min="13" max="120" placeholder="Age">
       </label>
     </div>
-
+    <br>
     <div class="selection">
       <label for="dropdown">Which option best describes your current role?
         <select name="dropdown" id="dropdown">
-          <option value="" disabled selected>Select current role?</option>
+          <option value="" disabled selected>Select current role</option>
           <option value="student">Student</option>
           <option value="full-time-job">Full Time Job</option>
           <option value="full-time-learner">Full Time Learner</option>
@@ -40,7 +40,7 @@
           <option value="others">Others</option>
         </select>
       </label>
-
+      <br>
       <label for="">Would you recommend freeCodeCamp to a friend?
 
 
@@ -51,24 +51,33 @@
         </label>
         <label for="not"> <input id="not" name="radio-recomend" value="3" type="radio" class="inline"> Not Sure
         </label>
+        <br>
+        <label for="">What is your favorite feature of freeCodeCamp?</label>
+          <select name="second-selection" id="second-selection">
+            <option value="" disabled selected>Select an option</option>
+            <option value="">Challenges</option>
+            <option value="">Projects</option>
+            <option value="">Community</option>
+            <option value="">Open Source</option>
+          </select>
 
       </label>
-
-      <label>What would you like to see improved? (Check all that apply)
-        <input type="checkbox" value="check-1"> Front-end Projects
-        <input type="checkbox" value="check-2"> Back-end Projects
-        <input type="checkbox" value="check-3"> Data Visualization
-        <input type="checkbox" value="check-4"> Challenges
-        <input type="checkbox" value="check-5"> Open Source Community
-        <input type="checkbox" value="check-6"> Gitter help rooms
-        <input type="checkbox" value="check-7"> Videos
-        <input type="checkbox" value="check-8"> City Meetups
-        <input type="checkbox" value="check-9"> Wiki
-        <input type="checkbox" value="check-10"> Forum
-        <input type="checkbox" value="check-11"> Additional Courses
+      <br>
+      <label>What would you like to see improved? (Check all that apply) <br>
+        <input type="checkbox" value="check-1" class="inline"> Front-end Projects <br>
+        <input type="checkbox" value="check-2"class="inline"> Back-end Projects<br>
+        <input type="checkbox" value="check-3"class="inline"> Data Visualization<br>
+        <input type="checkbox" value="check-4"class="inline"> Challenges<br>
+        <input type="checkbox" value="check-5"class="inline"> Open Source Community<br>
+        <input type="checkbox" value="check-6"class="inline"> Gitter help rooms<br>
+        <input type="checkbox" value="check-7"class="inline"> Videos<br>
+        <input type="checkbox" value="check-8"class="inline"> City Meetups<br>
+        <input type="checkbox" value="check-9"class="inline"> Wiki<br>
+        <input type="checkbox" value="check-10"class="inline"> Forum<br>
+        <input type="checkbox" value="check-11"class="inline"> Additional Courses<br>
       </label>
     </div>
-
+    <br>
     <div class="comments">
       <label for="">Any comments or suggestions?
         <textarea name="" id="" cols="30" rows="10"></textarea>
@@ -76,7 +85,7 @@
     </div>
 
     <div class="botton">
-      <input id="submit" type="submit" value="submit" />
+      <button>Submit</button>
     </div>
   </form>
 </body>
