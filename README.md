@@ -1,10 +1,10 @@
 # Survey Form (Formulário de Pesquisa)
 
 ## Proposta
-A proposta desse projeto é fazer uma formulário de pesquisa com os conhecimentos adiquiridos no curso de web design responsivo da Freecodecamp utulizando HTML e css. Esse desafio é um requisito para obter a certificação do primeiro modulo.
+A proposta desse projeto é criar um formulário de pesquisa utilizando os conhecimentos adquiridos no curso de web design responsivo da Freecodecamp, utilizando HTML e CSS. Este desafio é um requisito para obter a certificação do primeiro módulo.
 
 ## Desafio
-O principal desafio foi criar uma aplicação semelhante a original: https://survey-form.freecodecamp.rocks e a aplicar a responsividade para que se adapte a tamnhos diferentes de tela.
+O principal desafio foi criar uma aplicação semelhante à original: https://survey-form.freecodecamp.rocks e aplicar a responsividade para que se adapte a diferentes tamanhos de tela.
 
 ## Imagens da aplicação desktop
 ![Captura de tela 2023-05-01 150858](https://user-images.githubusercontent.com/112333883/235531955-19fb5078-23c7-4ca5-b0f2-ea362728f5a0.png)
